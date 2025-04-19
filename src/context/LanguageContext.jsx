@@ -14,7 +14,9 @@ const translations = {
     humidity: "Humidity",
     wind: "Wind",
     aqi: "AQI",
-    mainPollutant: "Main Pollutant"
+    mainPollutant: "Main Pollutant",
+    hour: "Hourly Forecast",
+    day: "7-Day Forecast"
   },
   ru: {
     dashboard: "Экологическая панель",
@@ -28,7 +30,10 @@ const translations = {
     humidity: "Влажность",
     wind: "Ветер",
     aqi: "ИКВ",
-    mainPollutant: "Основной загрязнитель"
+    mainPollutant: "Основной загрязнитель",
+    hour: "Почасовой прогноз",
+    day: "7-дневный прогноз",
+
   },
   uz: {
     dashboard: "Atrof-muhit paneli",
@@ -42,7 +47,9 @@ const translations = {
     humidity: "Namlik",
     wind: "Shamol",
     aqi: "HIS",
-    mainPollutant: "Asosiy ifloslantiruvchi"
+    mainPollutant: "Asosiy ifloslantiruvchi",
+    hour: "Soatlik prognoz",
+    day: "7 kunlik prognoz"
   }
 };
 
