@@ -16,7 +16,18 @@ const translations = {
     aqi: "AQI",
     mainPollutant: "Main Pollutant",
     hour: "Hourly Forecast",
-    day: "7-Day Forecast"
+    day: "7-Day Forecast",
+    aqiLevels: {
+      unknown: "Unknown",
+      good: "Good",
+      moderate: "Moderate",
+      sensitive: "Unhealthy for Sensitive Groups",
+      unhealthy: "Unhealthy",
+      veryUnhealthy: "Very Unhealthy",
+      hazardous: "Hazardous"
+    },
+    status: "STATUS",
+    updated: "Updated just now",
   },
   ru: {
     dashboard: "Экологическая панель",
@@ -33,7 +44,17 @@ const translations = {
     mainPollutant: "Основной загрязнитель",
     hour: "Почасовой прогноз",
     day: "7-дневный прогноз",
-
+    aqiLevels: {
+      unknown: "Неизвестно",
+      good: "Хорошо",
+      moderate: "Умеренно",
+      sensitive: "Вредно для чувствительных групп",
+      unhealthy: "Вредно",
+      veryUnhealthy: "Очень вредно",
+      hazardous: "Опасно"
+    },
+    status: "Статус",
+    updated: "Обновлено только что",
   },
   uz: {
     dashboard: "Atrof-muhit paneli",
@@ -49,7 +70,18 @@ const translations = {
     aqi: "HIS",
     mainPollutant: "Asosiy ifloslantiruvchi",
     hour: "Soatlik prognoz",
-    day: "7 kunlik prognoz"
+    day: "7 kunlik prognoz",
+    aqiLevels: {
+      unknown: "Noma'lum",
+      good: "Yaxshi",
+      moderate: `O‘rtacha`,
+      sensitive: "Nozik guruhlar uchun zararli",
+      unhealthy: "Zararli",
+      veryUnhealthy: "Juda zararli",
+      hazardous: "Havfli"
+    },
+    status: "STATUS",
+    updated: "Hozir yangilangan",
   }
 };
 

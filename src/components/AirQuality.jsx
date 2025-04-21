@@ -23,13 +23,13 @@ const AirQuality = () => {
   };
 
   const getAqiLevel = (aqi) => {
-    if (aqi === 'Loading...' || aqi === 'Error') return 'Unknown';
-    if (aqi <= 50) return 'Good';
-    if (aqi <= 100) return 'Moderate';
-    if (aqi <= 150) return 'Unhealthy for Sensitive Groups';
-    if (aqi <= 200) return 'Unhealthy';
-    if (aqi <= 300) return 'Very Unhealthy';
-    return 'Hazardous';
+    if (aqi === 'Loading...' || aqi === 'Error') return t.aqiLevels.unknown;
+    if (aqi <= 50) return t.aqiLevels.good;
+    if (aqi <= 100) return t.aqiLevels.moderate;
+    if (aqi <= 150) return t.aqiLevels.sensitive;
+    if (aqi <= 200) return t.aqiLevels.unhealthy;
+    if (aqi <= 300) return t.aqiLevels.veryUnhealthy;
+    return t.aqiLevels.hazardous;
   };
 
   useEffect(() => {
@@ -93,7 +93,7 @@ const AirQuality = () => {
               </div>
               <div>
                 <div className="font-medium text-gray-900">{getAqiLevel(airQualityData.aqi)}</div>
-                <div className="text-xs text-gray-500">Updated just now</div>
+                <div className="text-xs text-gray-500">{t.updated}</div>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const AirQuality = () => {
                 <div className="mt-1 text-lg font-semibold text-indigo-700 capitalize">{airQualityData.mainPollutant.toLowerCase()}</div>
               </div>
               <div>
-                <div className="text-xs font-medium text-gray-500 uppercase tracking-wider">Status</div>
+                <div className="text-xs font-medium text-gray-500 uppercase tracking-wider">{t.status}</div>
                 <div className="mt-1 text-lg font-semibold text-indigo-700">{getAqiLevel(airQualityData.aqi).split(' ')[0]}</div>
               </div>
             </div>
