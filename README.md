@@ -1,12 +1,55 @@
-# React + Vite
+# Air Environment Dashboard - GitHub Repository  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🌍 **Real-time Air Quality & Weather Monitoring**  
 
-Currently, two official plugins are available:
+A personal dashboard for tracking air quality and weather conditions, built with modern web technologies for optimal performance and usability.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack  
+- **Frontend**: React + Vite (Blazing fast development)  
+- **Styling**: Tailwind CSS (Utility-first, responsive design)  
+- **APIs**:  
+  - OpenWeather API (Weather data)  
+  - Air Quality Index API (Real-time AQI)  
+- **Deployment**: Netlify/Vercel/GitHub Pages  
 
-## Expanding the ESLint configuration
+## ✨ Features  
+- **Real-time Air Quality Index (AQI)** – Track pollution levels in your area  
+- **Weather Conditions** – Temperature, humidity, wind speed, and forecasts  
+- **Location-Based** – Automatically detects or allows manual city selection  
+- **Responsive UI** – Works on mobile, tablet, and desktop  
+- **Personal Use First** – Designed for my own needs, but open for others to use  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview  
+![Dashboard Screenshot](https://i.postimg.cc/Vk7wdbyb/Screenshot-2025-04-24-112232.png)  
+*Clean, intuitive interface with AQI and weather metrics*  
+
+## 🛠️ Setup (For Development)  
+1. Clone the repo:  
+   ```bash  
+   git clone https://github.com/your-username/air-environment-dashboard.git  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   cd air-environment-dashboard  
+   npm install  
+   ```  
+3. Add API keys in `.env`:  
+   ```env  
+   VITE_OPENWEATHER_API_KEY=your_api_key  
+   VITE_AQI_API_KEY=your_aqi_key  
+   ```  
+4. Run locally:  
+   ```bash  
+   npm run dev  
+   ```  
+
+## 🌟 Why I Built This  
+Initially created for **personal use** to monitor local air quality and weather in a simple, fast interface. Open-sourced so others can benefit or customize it for their needs!  
+
+📜 **License**: MIT (Free to use and modify)  
+
+---
+
+🌫️ **Breathe easier with real-time environmental insights!** ☀️  
+
+*(Note: Requires API keys for OpenWeather and AQI services)*
